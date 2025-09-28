@@ -6,7 +6,7 @@ elseif game.GameId == 2640407187 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SdevSS/azarinehub/refs/heads/main/AzarineHub_CDID.lua"))()
 elseif game.GameID == 6701277882 then
 	print("Loading AzarineHub FISH IT Script...")
-	
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SdevSS/azarinehub/refs/heads/main/AzarineHub_FISHIT.lua'))()
 else
 	game.Players.LocalPlayer:Kick("[AzarineHub] Game is not Supported!")
 end
