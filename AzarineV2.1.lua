@@ -10,6 +10,9 @@ elseif game.GameId == 6701277882 then
 elseif game.GameId == 8384560791 then
 	print("Loading AzarineHub MT ATIN Script...")
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/SdevSS/azarinehub/refs/heads/main/AzarineHub_ATIN.lua'))()
+elseif game.GameId = 6331902150 then
+	print("Loading AzarineHub Forsaken Script...")
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SdevSS/azarinehub/refs/heads/main/AzarineHub_Forsaken.lua'))()
 else
 	game.Players.LocalPlayer:Kick("[AzarineHub] Game is not Supported!")
 end
