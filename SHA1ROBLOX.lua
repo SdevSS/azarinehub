@@ -137,7 +137,6 @@ if ASSERTIONS_ENABLED then
 	assert(ENCRYPTORAZG.sha1("") == "da39a3ee5e6b4b0d3255bfef95601890afd80709")
 	assert(ENCRYPTORAZG.sha1("foo") == "0beec7b5ea3f0fdbc95d0dd47f3c5bc275da8a33")
 
-	print("SHA-1 tests OK | Time:", os.clock() - t)
 end
 
 return ENCRYPTORAZG
